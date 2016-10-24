@@ -10,13 +10,23 @@ we can add one logical file at a time using the stating area.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+We can add one logical change at a time to staging area and then commit the changes.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+We can create experimntal features without disturbing the original functionality of the project.
+
 How do the diagrams help you visualize the branch structure?
+
+It makes us easier to understand the branches of the project with visual representation.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Merging combines the experimental branch with the master branch. with the representation of diagram its possible to see the reachability.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+Automatic merging sometimes introduces bugs if there are different changes in same part of the code.
